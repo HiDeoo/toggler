@@ -1,0 +1,32 @@
+{
+  "name": "toggler",
+  "main": "./lib/toggler",
+  "version": "0.0.0",
+  "author": "HiDeoo",
+  "description": "Toggle words and symbols",
+  "keywords": [
+    "toggle",
+    "words",
+    "symbols",
+    "cursor",
+    "selection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HiDeoo/toggler"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "toggler:toggle",
+      "toggler:config"
+    ]
+  },
+  "dependencies": {},
+  "bugs": "https://github.com/HiDeoo/toggler/issues",
+  "contributors": [],
+  "homepage": "https://github.com/HiDeoo/toggler"
+}
