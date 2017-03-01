@@ -1,7 +1,7 @@
 # Toggler Package
 
 [![OS X Build Status](https://travis-ci.org/HiDeoo/toggler.svg?branch=master)](https://travis-ci.org/HiDeoo/toggler)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/4kncgpbed7lpcqo1/branch/master?svg=true)](https://ci.appveyor.com/project/HiDeoo/toggler/branch/master)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/wbyrhho7e2icp5sx/branch/master?svg=true)](https://ci.appveyor.com/project/HiDeoo/toggler/branch/master)
 [![Dependency Status](https://david-dm.org/HiDeoo/toggler.svg)](https://david-dm.org/HiDeoo/toggler)
 
 Toggle words and symbols in Atom using a user defined configuration.
@@ -19,6 +19,7 @@ As none of the existing words toggling package were fitting my needs, I decided 
   * Multiple toggles support.
   * Multiple cursors support.
   * Multiple selections support.
+  * No dependency.
 
 ## Usage
 
