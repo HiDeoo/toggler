@@ -23,7 +23,7 @@ As none of the existing words toggling package were fitting my needs, I decided 
 
 ## Usage
 
-Set your cursor on a word or select a word and press the associated keybinding (<kbd>Ctrl</kbd>+<kbd>r</kbd> by default).
+Set your cursor on a word or select a word and press the associated keybinding (<kbd>Ctrl</kbd>+<kbd>r</kbd> by default on macOS and Linux, <kbd>Alt</kbd>+<kbd>r</kbd> on Windows).
 
 You can also use the Atom Command Palette and choose the `Toggler - Toggle` command, or use the `Toggle` action in a context menu or use the application menu `Packages -> Toggler -> Toggle`.
 
