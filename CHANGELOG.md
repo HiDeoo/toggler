@@ -1,4 +1,4 @@
-## 0.1.1 - The EveryJuan release
+## 0.2.0 - The EveryJuan release
 
 * Change the default Windows shortcut to Alt + r instead of Ctrl + r.
 
