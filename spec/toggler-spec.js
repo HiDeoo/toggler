@@ -127,6 +127,60 @@ describe('Toggler', () => {
       });
     });
 
+    it('should always replace the selected text over a guess based on the cursor position', () => {
+      runs(() => {
+        editor.setText('true');
+        editor.setSelectedBufferRange([[0, 0], [0, 2]]);
+
+        atom.commands.dispatch(workspaceElement, 'toggler:toggle');
+
+        expect(editor.getText()).toBe('tdue');
+      });
+    });
+
+    it('should properly guess the word to replace based on the cursor position', () => {
+      runs(() => {
+        editor.setText('test');
+        editor.setCursorBufferPosition([0, 2]);
+
+        atom.commands.dispatch(workspaceElement, 'toggler:toggle');
+
+        expect(editor.getText()).toBe('test.only');
+
+        atom.commands.dispatch(workspaceElement, 'toggler:toggle');
+
+        expect(editor.getText()).toBe('test');
+      });
+    });
+
+    it('should properly guess the word to replace when the cursor is around the word', () => {
+      runs(() => {
+        editor.setText('test');
+        editor.setCursorBufferPosition([0, 0]);
+
+        atom.commands.dispatch(workspaceElement, 'toggler:toggle');
+
+        expect(editor.getText()).toBe('test.only');
+
+        editor.setCursorBufferPosition([0, 9]);
+
+        atom.commands.dispatch(workspaceElement, 'toggler:toggle');
+
+        expect(editor.getText()).toBe('test');
+      });
+    });
+
+    it('should not guess a word to replace in a range not including the cursor position', () => {
+      runs(() => {
+        editor.setText('test something');
+        editor.setCursorBufferPosition([0, 5]);
+
+        atom.commands.dispatch(workspaceElement, 'toggler:toggle');
+
+        expect(editor.getText()).toBe('test something');
+      });
+    });
+
     it('should replace symbols', () => {
       runs(() => {
         editor.setText('\'');
