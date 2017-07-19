@@ -102,6 +102,7 @@
   ["0", "1"],
   ["enabled", "disabled"],
   ["enable", "disable"],
+  ["if", "else"],
   ["on", "off"],
   ["true", "false"],
   ["yes", "no"],
