@@ -59,6 +59,7 @@
   ["Math.min", "Math.max"],
   ["min", "max"],
 
+  ["all", "each", "only"],
   ["deactivate", "activate"],
   ["address", "port"],
   ["add", "remove"],
