@@ -15,7 +15,6 @@
   ["import", "export"],
   ["join", "split"],
   ["JSON.parse", "JSON.stringify"],
-  ["open", "close"],
   ["parse", "stringify"],
   ["pop", "push"],
   ["unshift", "shift"],
