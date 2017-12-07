@@ -8,7 +8,7 @@ Toggle words and symbols in Atom using a user defined configuration.
 
 An **official** port for VS Code is also available [here](https://marketplace.visualstudio.com/items?itemName=hideoo.toggler).
 
-![Screenshot of the Toggler Package](https://i.imgur.com/yFkDcfU.gif)
+![Screenshot of the Toggler Package](http://i.imgur.com/uCltY1U.gif)
 
 [Changelog](https://github.com/HiDeoo/toggler/blob/master/CHANGELOG.md)
 
