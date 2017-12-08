@@ -1,3 +1,10 @@
+# Changelog
+
+## 0.3.1
+
+* Change default Linux shortcut to <kbd>Alt</kbd>+<kbd>r</kbd>.
+* Add more default toggles ([#4](https://github.com/HiDeoo/toggler/pull/4)).
+
 ## 0.3.0
 
 * Change behavior without explicit selection(s):
